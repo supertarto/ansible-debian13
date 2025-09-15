@@ -55,4 +55,4 @@ jobs:
           file: Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: thetarto/ansible-debian12:latest
+          tags: thetarto/ansible-debian13:latest
