@@ -16,7 +16,7 @@ RUN apt-get update \
     && rm -Rf /usr/share/doc && rm -Rf /usr/share/man \
     && apt-get clean
 
-# Allow installing stuff to system Python.
+# Allow use of system Python
 RUN rm -f /usr/lib/python3.11/EXTERNALLY-MANAGED
 
 # Install Ansible via pip.
